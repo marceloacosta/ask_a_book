@@ -33,15 +33,15 @@ Replace <your_openai_api_key> and <your_pinecone_api_key> with your respective A
 Create a folder named working in the project root directory. Place the file you want to read text from in this folder.
 ## Usage
 Run the script with the following command:
-<pre>python app.py <file></pre>
+<pre>python app.py file</pre>
 Replace <file> with the name of the file you want to read text from. The file should be located in the working directory.
 
 Enter your question when prompted:
 <pre>
-Enter your question: <your_question></pre>
+Enter your question: your_question</pre>
 Replace <your_question> with the question you want to ask based on the text in the file.
 
 The script will return an answer based on the text in the file:
 <pre>
-Answer: <answer>
+Answer: answer
 </pre>
