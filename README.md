@@ -25,8 +25,8 @@ Copy code
 pip install -r requirements.txt
 Create a .env file in the project root directory with the following contents:
 <pre>
-OPENAI_API_KEY=<your_openai_api_key>
-PINECONE_API_KEY=<your_pinecone_api_key>
+OPENAI_API_KEY= your_openai_api_key
+PINECONE_API_KEY= your_pinecone_api_key
 </pre>
 Replace <your_openai_api_key> and <your_pinecone_api_key> with your respective API keys.
 
