@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "My Python Script",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "args": ["text.pdf"]
+      }
+    ]
+  }
+  
