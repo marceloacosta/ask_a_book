@@ -1,15 +1,15 @@
-#Ask a Book
+# Ask a Book
 Ask a Book is a Python application that reads text from various file formats, creates embeddings using OpenAI's text-embedding-ada-002 model, stores the embeddings in Pinecone, and answers questions related to the text using GPT-3.
 
-##Features
+## Features
 Reads text from .txt, .doc, .docx, and .pdf files.
 Creates embeddings using OpenAI's text-embedding-ada-002 model.
 Stores the embeddings in Pinecone.
 Answers questions related to the text using GPT-3.
-##Requirements
+## Requirements
 Python 3.6+
 Python packages: dotenv, os, argparse, docx, pdfplumber, textwrap, json, re, requests, pinecone, openai, numpy.
-##Installation
+## Installation
 Clone the repository:
 <pre>
 
@@ -19,7 +19,7 @@ Change directory to the project folder:
 <pre>
 cd ask_a_book
 </pre>
-##Install the required packages:
+## Install the required packages:
 bash
 Copy code
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ PINECONE_API_KEY=<your_pinecone_api_key>
 Replace <your_openai_api_key> and <your_pinecone_api_key> with your respective API keys.
 
 Create a folder named working in the project root directory. Place the file you want to read text from in this folder.
-##Usage
+## Usage
 Run the script with the following command:
 <pre>python app.py <file></pre>
 Replace <file> with the name of the file you want to read text from. The file should be located in the working directory.
